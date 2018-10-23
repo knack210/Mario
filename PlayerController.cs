@@ -54,10 +54,7 @@ public class PlayerController : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
+        // Bound the escape key to camera because if Mario dies no escape in here
     }
 
     
